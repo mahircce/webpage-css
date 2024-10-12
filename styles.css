@@ -1,0 +1,133 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #89fffd, #ef32d9); 
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav#navbar {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  nav  a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 10px; 
+    justify-content: center;
+    color: #0e0101;
+    transition: color 0.3s ease;
+
+  }
+  
+  nav  a:hover {
+    color: #803bff;
+  }
+  
+  
+  section {
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); 
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 40px;
+    margin: 20px;
+    width: 60%;
+    max-width: 800px;
+    color: #030000;
+    text-align: center;
+  }
+   
+  section#intro-section {
+    margin-top:100px;
+  }
+
+  section#backend-section {
+    margin-bottom: 100px;
+  }
+  
+
+  #intro-section {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+ 
+  #frontend-section {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  
+  #backend-section {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+ 
+  h1, h2 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 28px;
+  }
+  
+  p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #000000;
+  }
+  
+   section ul li:before {
+    content: '•';
+    color: #030000;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  #footer {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px); 
+    -webkit-backdrop-filter: blur(5px);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  }
+  

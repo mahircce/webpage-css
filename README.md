@@ -1,4 +1,4 @@
 # webpage-css
 lab5
 
-https://mahircce.github.io/webpage-css/#backend-section
+https://mahircce.github.io/webpage-css/
